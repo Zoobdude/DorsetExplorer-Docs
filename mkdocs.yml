@@ -1,0 +1,41 @@
+site_name: DorsetExplorer docs
+plugins:
+  - search
+extra_css:
+  - stylesheets/custom.css
+theme:
+  name: material
+  logo: assets/dc_logo_white_d.svg
+  features:
+    - navigation.instant
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+markdown_extensions:
+- toc:
+    permalink: true
+- attr_list
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+copyright: All content is available under the Open Government Licence v3.0 except where otherwise stated
+nav:
+    - 'index.md'
+    - 'the-basics.md'
+    - 'searching.md'
+    - 'background-maps.md'
+    - 'layers.md'
+    - 'map-querying.md'
+    - 'drawing.md'
+    - 'measuring.md'
+    - 'filtering.md'
+    - 'sharing-your-map.md'
+    - 'exporting-and-printing.md'
+    - 'copyright-and-acknowledgements.md'
+    - 'update-notes.md'
