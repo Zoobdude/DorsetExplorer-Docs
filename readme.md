@@ -2,37 +2,18 @@
 
 This project contains the help documentation used in DorsetExplorer. The documentation is built using the [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) static site generator.
 
+## Making changes to the guide
 
-## Pre-requisites
+We're happy to accept improvements to this guide. 
 
- - Python 3+ 
- - A text editor (we recommend Visual Studio Code) 
- - A terminal capable of running Python commands
+If you are comfortable using GitHub Pull Requests and developing with MkDocs, the preferred way to receive contributions is through Pull Requests to the `main` branch. Read the Developing documentation below for more information.
 
-## Installation
+If you aren't comfortable, please open an issue describing the change you'd like to see.
 
-Follow the instructions at [Getting started - Material for MkDocs (squidfunk.github.io)](https://squidfunk.github.io/mkdocs-material/getting-started/) to install MkDocs on your machine.
+## Developing
 
-## Editing and building the docs
+The guide is written using MkDocs with the Material theme. 
 
-The docs are written in [Markdown](https://commonmark.org/help/).
-To add a new page, simply create a new file in the 'docs' folder with a .md extension and then add a reference to it in the 'nav' section of the mkdocs.yml file. It will appear in the same order in the yaml file and table of contents.
-To see your changes as you edit them, open a terminal window in the root folder and run the following command.
+Clone the repository and follow the [Material for MkDocs installation docs](https://squidfunk.github.io/mkdocs-material/getting-started/#installation) to get started. 
 
-`python -m mkdocs serve`
-
-This will spin up a local server and hot reload as you make changes to the docs.
-To build the documentation into a full static site ready for publishing, run the following command.
-
-`python -m mkdocs build`
-
-This will generate a folder in the root called 'site' with all the files you need.
-
-## Publishing
-
-TODO - Set up automated publishing 
-
-
-## Further info
-
-MkDocs Material documentaion - [Getting started - Material for MkDocs (squidfunk.github.io)](https://squidfunk.github.io/mkdocs-material/getting-started/)
+Once its installed, follow the [building documentation](https://squidfunk.github.io/mkdocs-material/creating-your-site/#previewing-as-you-write) to start making changes, and when you are happy, open a Pull Request for us to review.
