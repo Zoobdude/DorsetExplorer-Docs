@@ -6,6 +6,7 @@ extra_css:
 theme:
   name: material
   logo: assets/dc_logo_white_d.svg
+  favicon: assets/dc_logo_white_d.svg
   features:
     - navigation.instant
   palette:
@@ -24,6 +25,10 @@ markdown_extensions:
 - admonition
 - pymdownx.details
 - pymdownx.superfences
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Dorset-Council-UK/GIFramework-Maps
 copyright: All content is available under the Open Government Licence v3.0 except where otherwise stated
 nav:
     - 'index.md'
