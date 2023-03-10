@@ -10,7 +10,7 @@ You may not use any features of this site to create a map or plan to accompany a
 
 ##Planning applications terms and conditions
 
-[Read our full terms and conditions for planning applications.](https://planning.dorsetcouncil.gov.uk/disclaimer.aspx?returnURL=https://gi.dorsetcouncil.gov.uk/dorsetexplorer/planning/public&AspxAutoDetectCookieSupport=1)
+[Read our full terms and conditions for planning applications.](https://planning.dorsetcouncil.gov.uk/disclaimer.aspx?returnURL=https://dorset-council-uk.github.io/DorsetExplorer-Docs/terms-of-service/)
 
 ##Ordnance Survey Terms
 You are bound by the Ordnance Survey terms and conditions under the public sector end user licence while using this site.
