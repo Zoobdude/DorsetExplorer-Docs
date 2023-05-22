@@ -39,6 +39,7 @@ nav:
     - 'map-querying.md'
     - 'drawing.md'
     - 'measuring.md'
+    - 'geolocation.md'
     - 'filtering.md'
     - 'sharing-your-map.md'
     - 'exporting-and-printing.md'
