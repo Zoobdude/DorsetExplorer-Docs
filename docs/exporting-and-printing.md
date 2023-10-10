@@ -6,7 +6,7 @@ You can export your map to PDF for printing, sending to other people, or embeddi
 
 ## Exporting to PDF
 
-In the Export and Print panel, you can choose the page size and orientation you want, what level of quality you need and, optionally, add a title and subtitle to your map.
+In the Export and Print panel, you can choose the [page size and orientation](#page-size) you want, what level of [quality](#quality) you need and, optionally, add a [title and subtitle](#titlesubtitle) to your map. You can also choose to add a [legend](#legend).
 
 ![Print panel - showing the options you have when exporting and printing](../assets/images/print-panel.png)
 
@@ -31,4 +31,26 @@ You can change the quality of the output that is produced. Your options are:
 
 Note that your output may not look exactly the same as what you see on screen, depending on the quality option you choose. For example, if you choose a high quality output, your base mapping may be at a different scale and look different in the PDF output. This is to make sure you get the best detail mapping at the quality you request.
 
-![PDF output - showing an example of a map that has been exported](../assets/images/print-pdf-output.png)
+### Legend
+
+You can add a legend (or 'key') to your PDF to show what the overlays mean. There are 3 placement options. If your legend won't fit, either because its too wide or too tall, it will automatically be placed on a separate page.
+
+#### Floating - Left
+
+This option will place a box floating over the top of your map starting in the top left underneath your title. This is a good option for small legends where the key won't take up much of the map, but be aware that larger keys may cover important parts of the map you want to see. If this is the case, you should use the Pinned option. This option is not available for A5 or A4 Portrait prints.
+
+![PDF output - showing an example of a map that has been exported with a floating legend](../assets/images/print-floating-legend.png)
+
+#### Pinned - Left
+
+This option will create a full height section to the left of the map dedicated to the legend, with the map made smaller to fit fully in the remaining space. This is a good option if your legends is quite large, and it makes sure that the map area you wanted is completely visible. This option is not available for A5 or A4 Portrait prints.
+
+![PDF output - showing an example of a map that has been exported with a pinned legend](../assets/images/print-pinned-legend.png)
+
+#### Separate page
+
+This option will put the legend on a separate page altogether, leaving your map on its own page. This option is ideal if you want the maximum map size and are happy to have your legend separate. This is the only option available for A5 and A4 Portrait prints.
+
+![PDF output - showing an example of a map that has been exported with a separate legend](../assets/images/print-separate-legend.png)
+
+
