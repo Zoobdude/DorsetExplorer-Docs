@@ -16,6 +16,7 @@ You can draw the following features onto the map:
 * lines
 * points with various symbols
 * circles
+* buffers
 * text 
 
 When drawing polygons, lines and circles; if you make a mistake you can press the <kbd>Esc</kbd> key on your keyboard to cancel drawing. For polygons and lines, you can press <kbd>CTRL</kbd> (or <kbd>CMD</kbd> on a Mac) + <kbd>Z</kbd> to undo the individual nodes you've drawn.
@@ -68,6 +69,16 @@ Click once where you want the centre or your circle to be, then move your mouse 
 
 When you are done you can click the drawing tool icon again to turn it off.
 
+### Draw a circular buffer
+
+Click the buffer button to turn it on.
+
+![Buffer drawing tool - showing a buffer](../assets/images/draw-button-buffer.png)
+
+In the modify annotation panel, enter a number and choose the measurement of your buffer. Move your mouse to where you want the centre of your buffer to be and click once - your buffer will be drawn on the map at the size you have set.
+
+When you are done you can click the drawing tool icon again to turn it off.
+
 ### Add text
 
 Click the add text tool to turn it on.
@@ -91,7 +102,7 @@ You can edit your drawings super easily using the Edit button. Click the button 
 
 Then click any of your drawings (note this will not allow you to edit measurements or any other layers, just your drawings) and it will be highlighted.
 
-You can edit lines, polygons and circles by hovering over the edges and clicking and dragging. For points and text, just drag from the middle of the point and drop in its new location.
+You can edit lines, polygons and circles by hovering over the edges and clicking and dragging. For points and text, just drag from the middle of the point and drop in its new location. Buffers cannot be edited apart from changing the colour and style.
 
 ![Polygon editing - showing a short video of a polygon being edited](../assets/images/draw-edit-polygon.gif)
 
