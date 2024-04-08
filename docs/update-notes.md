@@ -1,12 +1,39 @@
 # Update notes
-This page lists the updates we've made to DorsetExplorer and any changes you should be aware of.
+This page lists the updates we've made to DorsetExplorer and any changes you should be aware of. The [technical release notes can be found on GitHub](https://github.com/Dorset-Council-UK/GIFramework-Maps/releases).
+
+## Version 1.4.0
+- Made [measurements configurable](./measuring.md#configuring-your-measurements)
+- Added more font options to the [text annotations tool](./drawing.md#add-text)
+- Added a [version switcher](./versions.md)
+- Share panel - 'Embed the map in your own page' has been removed
+
+## Version 1.3.0
+- Added Dark Mode - Click the sun icon :octicons-sun-16: to switch to a dark theme or use whatever your system uses. The map itself will not become dark, but there is a basemap option available which has a dark colour pallete. 
+- Added [Buffer annotations](./drawing.md#draw-a-circular-buffer)
+- Map projection is now in British National Grid - This improves the quality of our basemaps and prevents warping caused by reprojection. This does mean that you are restricted to Great Britain now.
+- Added attribution information to the [metadata](./layers.md#metadata) dialogs
+
+## Version 1.2.0
+- Added new point icons and border options in [annotations](./drawing.md)
+- Opacity and Saturation sliders now have labels
+
+## Version 1.1.0
+- Improved handling of [metadata](./layers.md#metadata)
+- Added [legends to prints](./exporting-and-printing.md)
+- Made sidebar headers 'sticky'
+
+## Version 1.0.0
+- Added [GPS tracker](./geolocation.md) functionality
+- Allowed [multiple search result pins](./searching.md#advanced-customising-your-search) on the map at once
+- Added [Short Links](./sharing-your-map.md#short-links) feature to Share tool
+- Added [Bookmarks](./bookmarks.md) feature (logged in users only)
 
 ## Changes from DorsetExplorer 3
-We've made a number of changes to DorsetExplorer from our old version (which we'll refer to as DorsetExplorer 3). 
+We've made a number of changes to DorsetExplorer from our old version. 
 
 ### Major changes
 
-- ⭐ A new and refreshed style! We've refreshed the design to be more modern and touch friendly. We've tried to maintain consistency with DorsetExplorer 3 so it should still feel familiar, but there have been some minor changes, such as the Search Bar now being in the top left, your coordinates being in the bottom left, and annotation and measurement tools being on the left hand side
+- ⭐ A new and refreshed style! We've refreshed the design to be more modern and touch friendly. We've tried to maintain consistency with the old version so it should still feel familiar, but there have been some minor changes, such as the Search Bar now being in the top left, your coordinates being in the bottom left, and annotation and measurement tools being on the left hand side
 - 🖍 Saturation controls for all layers. You can now control the saturation of the basemaps and layers, meaning you can choose to turn a basemap or layer greyscale or just tone down the colours as and when you like
 - 🗺 A new set of basemaps. We now make use of the base maps provided to us by Ordnance Survey which are higher quality and consistent across all zoom levels. They also come in a couple of different styles which you can choose from in the basemaps panel
 - ✨ A redesigned layer control. The layer control is probably the most important part of DorsetExplorer, so we've given it a fresh lick of paint and added some additional functionality.
@@ -35,4 +62,4 @@ We've made a number of changes to DorsetExplorer from our old version (which we'
 
 ### Removed features
 - The Coordinate Translator has been removed. It was under utilised and there are better alternatives out there for converting coordinates.
-- Print to Scale has not been included. We may add this back in at some point, but no immediate plans. If you need something properly printed to a measureable scale, you should probably be using professional GIS software such as QGIS
+- Print to Scale has not been included. We may add this back in at some point, but no immediate plans. If you need something properly printed to a measurable scale, you should probably be using professional GIS software such as QGIS

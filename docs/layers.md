@@ -18,9 +18,9 @@ You can search for a layer in the list simply by typing in the search box at the
 
 As you type, the list below will filter and show you matching results. If you are struggling to find what you're looking for, check your spelling, try a different name or get in touch with us.
 
-You can even sort the layer folders in alphabetical order by going to the drop-down box and choosing to sort them alphabeticaly.
+You can even sort the layer folders in alphabetical order by going to the drop-down box and choosing to sort them alphabetically.
 
-![Sorting layer folders alphabeticaly using the drop-down box](../assets/images/layers-alphabetical-sort.png)
+![Sorting layer folders alphabetically using the drop-down box](../assets/images/layers-alphabetical-sort.png)
 
 ## The Active layers tab
 
@@ -83,3 +83,15 @@ Find a layer you like the look of and click 'Add to map' to add the layer to you
 
  You can control the ordering, saturation and transparency just like any other layer by using the 'Active layers' tab. To remove your layer from the map completely, click on the bin icon next to the layer name.
 
+## Metadata
+You can learn more about a layer by clicking the 'i' tool next to the layer name in the layer list.
+
+This will bring up a dialog containing a description of what the layer is, and any attribution or usage restrictions.
+
+!!! note
+
+    If you are using GIS software, you can also retrieve the Capabilities document for the layer in question here, allowing you to use layers in your own applications.
+    
+    Please observe the attribution and any usage restrictions, and only use these for small scale, non-commercial use. For other uses please get in touch with us.
+    
+    Some layers will not have this option.

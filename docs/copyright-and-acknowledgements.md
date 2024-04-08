@@ -1,6 +1,6 @@
 # Copyright and acknowledgements
 
-DorsetExplorer was designed and developed by the Dorset Council Georgaphic Information System (GIS) team, and released as the [open source project GIFramework Maps](https://github.com/Dorset-Council-UK/GIFramework-Maps). It uses a number of open source projects, and the data comes from multiple sources.
+DorsetExplorer was designed and developed by the Dorset Council Geographic Information System (GIS) team, and released as the [open source project GIFramework Maps](https://github.com/Dorset-Council-UK/GIFramework-Maps). It uses a number of open source projects, and the data comes from multiple sources.
 
 ## Open source projects
 

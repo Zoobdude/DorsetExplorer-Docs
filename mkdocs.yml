@@ -39,9 +39,13 @@ markdown_extensions:
 - toc:
     permalink: true
 - attr_list
+- md_in_html
 - admonition
 - pymdownx.details
 - pymdownx.superfences
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra:
   social:
     - icon: fontawesome/brands/github 
@@ -60,7 +64,9 @@ nav:
     - 'filtering.md'
     - 'sharing-your-map.md'
     - 'exporting-and-printing.md'
+    - 'right-click.md'
     - 'bookmarks.md'
+    - 'versions.md'
     - 'copyright-and-acknowledgements.md'
     - 'terms-of-service.md'
     - 'privacy.md'

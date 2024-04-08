@@ -31,7 +31,7 @@ The polygon tool allows you to click on multiple points to create a shape, and w
 
 ### Find information on features within a chosen distance
 
-The buffer circle tool allows you to set a centre point, and then choose a buffer distance around it (you can choose metres, kilometers or miles).
+The buffer circle tool allows you to set a centre point, and then choose a buffer distance around it (you can choose metres, kilometres or miles).
 
 ![Showing the buffer circle tool](../assets/images/feature-buffer-circle-tool.png)
 ![Showing an area of 50 metres and all the features contained within](../assets/images/feature-buffer-selection.png)

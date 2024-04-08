@@ -18,7 +18,7 @@ These are optional. If you choose to add a title and/or subtitle, it will appear
 
 ### Page size
 
-Choose your output page size and orientation. You can choose Landscape or Portrait for sizes A5 to A2. If you need to produce bigger output, we would recommend you use a professional desktop Georgaphical Information System (GIS) program as this will have more options and better quality that what we can provide with DorsetExplorer. Get in touch with us to find out more.
+Choose your output page size and orientation. You can choose Landscape or Portrait for sizes A5 to A2. If you need to produce bigger output, we would recommend you use a professional desktop Geographical Information System (GIS) program as this will have more options and better quality that what we can provide with DorsetExplorer. Get in touch with us to find out more.
 
 ### Quality
 

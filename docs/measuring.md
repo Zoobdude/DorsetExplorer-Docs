@@ -39,3 +39,38 @@ You can delete your measurements by clicking on any of your existing measurement
 You can also use the delete measure button to remove all your measurements from the map.
 
 ![Measure area button - showing a bin](../assets/images/measure-button-delete-measure.png)
+
+## Configuring your measurements
+
+You can customise your measurements by clicking the Cog :material-cog: icon.
+
+![Configure measurements button](../assets/images/measure-button-configure.png)
+
+This will bring up a dialog giving you options on what unit of measurement you want to use, and whether to show segment and total lengths on the map
+
+![Configure measurements dialog](../assets/images/measure-configure-dialog.png)
+
+### Preferred units
+You can choose between Metric and Imperial units for your measurements. You can always get both measurements by clicking the line or area, this just controls what you see on the map when you draw.
+
+| Measurement type | Metric units                               | Imperial units      |
+| ---------------- | ------------------------------------------ | ------------------- |
+| Area             | Square Metres, Hectares, Square Kilometres | Square Yards, Acres |
+| Line             | Metres, Kilometres                         | Yards, Miles        |
+
+### Show segment lengths on map
+You can show or hide the segment lengths that appear on line measurements on the map to reduce the on screen clutter.
+
+<figure markdown="span">
+![Measurements with segment lengths ON](../assets/images/measurement-segments-on.PNG)
+  <figcaption>Measurements with segment lengths ON</figcaption>
+</figure>
+
+<figure markdown="span">
+![Measurements with segment lengths OFF](../assets/images/measurement-segments-off.png)
+  <figcaption>Measurements with segment lengths OFF</figcaption>
+</figure>
+
+### Show total length/area on map
+
+You can show or hide the total length or area label that appears on the map on your measurement. If you choose to have this turned off, a popup will appear when you finish measuring showing you the total length/area.

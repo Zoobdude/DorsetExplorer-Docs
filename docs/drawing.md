@@ -87,6 +87,8 @@ Click the add text tool to turn it on.
 
 This works a little different from the others. Before you can add text to the map, you need to type your text in to the modify annotation panel.
 
+You can choose between a few different basic fonts, and choose whether you want it to be normal, bold or italic, as well as the colour and size.
+
 Once you've done that, you can click on the map to add the text.
 
 !!! tip "Pro tip!"
