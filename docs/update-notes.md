@@ -1,6 +1,10 @@
 # Update notes
 This page lists the updates we've made to DorsetExplorer and any changes you should be aware of. The [technical release notes can be found on GitHub](https://github.com/Dorset-Council-UK/GIFramework-Maps/releases).
 
+## Version 1.5.0
+- Added a new scale bar style - click on the scale bar to toggle it between two styles
+- Added a link to further information about a layer when you click on a feature on the map
+
 ## Version 1.4.0
 - Made [measurements configurable](./measuring.md#configuring-your-measurements)
 - Added more font options to the [text annotations tool](./drawing.md#add-text)
