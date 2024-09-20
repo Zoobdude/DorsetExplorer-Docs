@@ -1,6 +1,11 @@
 # Update notes
 This page lists the updates we've made to DorsetExplorer and any changes you should be aware of. The [technical release notes can be found on GitHub](https://github.com/Dorset-Council-UK/GIFramework-Maps/releases).
 
+## Version 1.6.0
+- Added option for including a north pointer on your prints
+- Added a 'Collapse all' button to the layer control, to collapse all open folders in one click
+- Fixed a bug where coordinates copied from two seperate cells in a spreadsheet would not be recognised
+
 ## Version 1.5.0
 - Added a new scale bar style - click on the scale bar to toggle it between two styles
 - Added a link to further information about a layer when you click on a feature on the map
